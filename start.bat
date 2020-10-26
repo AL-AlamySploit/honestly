@@ -4,7 +4,7 @@ echo "Do You like Bash scripting...?"
 echo "[Y/N] ? "
 set /p like=
 if %like%=yes goto like
-if #like%=no goto Vairous
+if %like%=no goto Vairous
 :like
 echo "Good Answer"
 echo "I live you"
